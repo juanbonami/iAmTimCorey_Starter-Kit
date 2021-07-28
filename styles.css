@@ -43,3 +43,44 @@ html, body {
     height: 620px;
 }
 
+/* ============ GET THE KIT SECTION ============ */
+
+.get-the-kit-section {
+    margin-top: 10%;
+}
+
+.get-the-kit-section h1 {
+    text-align: center;
+    font-family: 'Montserrat Black', arial;
+    text-transform: uppercase;
+    font-size: 3.7rem;
+
+}
+
+.get-the-kit-section h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.6rem;
+}
+
+.btn {
+    width: 100%;
+    justify-content: center;
+}
+
+.btn button:hover {
+    background-color: darkred;
+}
+
+.btn button {
+    width: 22%;
+    height: 9%;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat Black', arial;
+    font-size: 2.7rem;
+    padding: 1.1rem 2rem;
+    color: white;
+    background-color: #E9354C;
+}
