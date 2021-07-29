@@ -84,3 +84,13 @@ html, body {
     color: white;
     background-color: #E9354C;
 }
+
+/* @media screen and (max-width: 1186px) {
+  .temp1 {
+      transform: translateY(0);
+  }
+
+  .btn {
+      transform: translateY(0);
+  }
+} */
