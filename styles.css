@@ -155,3 +155,44 @@ html, body {
     font-size: 2.6rem;
     margin: 1.5rem;
 }
+
+/* =========== Meet Tim Corey ========== */
+
+.meet-tim-corey-row {
+    padding-top: 6.5rem;
+}
+
+.meet-tim-corey-col-one {
+    width: 65%;
+}
+
+.meet-col-two {
+    padding: 3rem 0 10rem 1rem;
+}
+
+.meet-col-two h1 {
+    font-family: 'Montserrat Black', arial;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.meet-col-two p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    color: white;
+    padding-right: 15.8rem;
+    margin-bottom: 2rem;
+}
+
+.meet {
+    background-color: #AEB5BF;
+    margin-top: 3.1rem;
+}
+
+.meet-tim-corey-col-one img {
+    width: 100%; 
+    height:auto;
+    shape-outside: inset(2% 25% 0px 35px);
+}
