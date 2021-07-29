@@ -196,3 +196,41 @@ html, body {
     height:auto;
     shape-outside: inset(2% 25% 0px 35px);
 }
+
+/* ========= testimonials ========= */
+
+.testimonials-container {
+    background-color: #E9354C;
+    padding-bottom: 2rem;
+}
+
+.testimonials-title h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3.7rem;
+    font-family: 'Montserrat Black', arial;
+    font-size: 3.6rem;
+}
+
+.testimonials section {
+    background-color: white;
+    padding: 1.5rem 3.5rem;
+    border-radius: 50px;
+}
+
+.testimonials section h1 {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.testimonials div h1 {
+    padding: 2rem 0;
+    text-align: right;
+    font-family: arial;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+}
