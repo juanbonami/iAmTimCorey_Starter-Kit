@@ -84,3 +84,74 @@ html, body {
     color: white;
     background-color: #E9354C;
 }
+
+/* ============== info get the kit ================ */
+
+.get-the-kit-info-row-one {
+    margin-top: 5%;
+}
+
+.get-the-kit-info-col-one h1 {
+    text-align: center;
+    font-family: 'Montserrat Black', arial;
+    text-transform: uppercase;
+    font-size: 3.7rem;
+    margin-bottom: 1rem;
+}
+
+.get-the-kit-info-col-two h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.65rem;
+}
+
+.get-the-kit-info-row-two div {
+    width: 18.5%;
+    background-color: #AEB5BF;
+    margin: 3rem;
+    height: 376px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.get-the-kit-info-row-two div:hover {
+    background-color: #E9354C;
+}
+
+.get-the-kit-info-col-three-four-five section {
+    padding: 27px;
+}
+
+.get-the-kit-info-col-three-four-five h1 {
+    color: white;
+    font-family: 'Montserrat Black', arial;
+    font-size: 10.5rem;
+}
+
+.get-the-kit-info-col-three-four-five h5 {
+    color: white;
+    font-family: 'Montserrat Black', arial;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    word-spacing: 2px;
+    margin-top: 20px;
+}
+
+.get-the-kit-info-col-five-half h1 {
+    margin: 2rem;
+}
+
+.get-the-kit-info-col-five-half h1, .get-the-kit-info-col-six h1{
+    text-align: center;
+    font-family: 'Montserrat Black', arial;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: black;
+}
+
+.get-the-kit-info-col-six h1 {
+    text-transform: capitalize;
+    font-size: 2.6rem;
+    margin: 1.5rem;
+}
