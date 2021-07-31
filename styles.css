@@ -63,12 +63,45 @@ html, body {
     font-size: 2.6rem;
 }
 
-.btn {
-    width: 100%;
-    justify-content: center;
+.get-the-kit-image {
+    height: 70rem;
+    transform: translate(0, -14rem);
 }
 
-.btn button:hover {
+.get-the-kit-image img {
+    transform: scale(1.1);
+}
+
+.gtk-button {
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    
+}
+
+.col-button {
+    width: 21.666667%;
+}
+
+.gtk-button a {
+    background-color: #E9354C;
+    width: 100%;
+    height: 6rem;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat Black', arial;
+    font-size: 2.5rem;
+    padding: 1rem 1rem;
+    color: white;
+}
+
+.gtk-button a:hover {
+    background-color: darkred;
+    color: white;
+}
+
+/* .btn button:hover {
     background-color: darkred;
 }
 
@@ -83,7 +116,7 @@ html, body {
     padding: 1.1rem 2rem;
     color: white;
     background-color: #E9354C;
-}
+} */
 
 /* ============== info get the kit ================ */
 
@@ -273,12 +306,14 @@ html, body {
     background-color: #E9354C;
 }
 
-/* .button:hover {
+.button:hover {
     background-color: darkred;
-} */
+}
 
 .row-button {
     margin: 4rem 4rem 0 4rem;
+    position: relative;
+    z-index: 1;
 }
 
 .footer-col img {
