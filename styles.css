@@ -36,7 +36,6 @@ html, body {
     top: 50%;
     left: 0;
     padding: 0 15% 0 15%;
-    /* padding: 0 90px 0 90px; */
 }
 
 .embed-video {
@@ -52,7 +51,8 @@ html, body {
 
 .get-the-kit-section h1 {
     text-align: center;
-    font-family: 'Montserrat Black', arial;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     text-transform: uppercase;
     font-size: 3.7rem;
 
@@ -91,7 +91,8 @@ html, body {
     border: none;
     border-radius: 10px;
     text-transform: uppercase;
-    font-family: 'Montserrat Black', arial;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     font-size: 2.5rem;
     padding: 1rem 1rem;
     color: white;
@@ -102,23 +103,6 @@ html, body {
     color: white;
 }
 
-/* .btn button:hover {
-    background-color: darkred;
-}
-
-.btn button {
-    width: 22%;
-    height: 9%;
-    border: none;
-    border-radius: 10px;
-    text-transform: uppercase;
-    font-family: 'Montserrat Black', arial;
-    font-size: 2.7rem;
-    padding: 1.1rem 2rem;
-    color: white;
-    background-color: #E9354C;
-} */
-
 /* ============== info get the kit ================ */
 
 .get-the-kit-info-row-one {
@@ -127,9 +111,10 @@ html, body {
 
 .get-the-kit-info-col-one h1 {
     text-align: center;
-    font-family: 'Montserrat Black', arial;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     text-transform: uppercase;
-    font-size: 3.7rem;
+    font-size: 3.6rem;
     margin-bottom: 1rem;
 }
 
@@ -162,13 +147,15 @@ html, body {
 
 .get-the-kit-info-col-three-four-five h1 {
     color: white;
-    font-family: 'Montserrat Black', arial;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     font-size: 10.5rem;
 }
 
 .get-the-kit-info-col-three-four-five h5 {
     color: white;
-    font-family: 'Montserrat Black', arial;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     font-size: 1.7rem;
     text-transform: uppercase;
     letter-spacing: 1.1px;
@@ -182,7 +169,8 @@ html, body {
 
 .get-the-kit-info-col-five-half h1, .get-the-kit-info-col-six h1{
     text-align: center;
-    font-family: 'Montserrat Black', arial;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     text-transform: uppercase;
     font-size: 3.5rem;
     color: black;
@@ -209,7 +197,8 @@ html, body {
 }
 
 .meet-col-two h1 {
-    font-family: 'Montserrat Black', arial;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     font-size: 4rem;
     text-transform: uppercase;
     color: white;
@@ -248,7 +237,8 @@ html, body {
     text-align: center;
     text-transform: uppercase;
     padding: 3.7rem;
-    font-family: 'Montserrat Black', arial;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     font-size: 3.6rem;
 }
 
@@ -286,7 +276,8 @@ html, body {
 }
 
 .footer-title h1 {
-    font-family: 'Montserrat Black', arial;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     font-size: 3.6rem;
     color: black;
     text-transform: uppercase;
@@ -309,7 +300,8 @@ html, body {
     border: none;
     border-radius: 10px;
     text-transform: uppercase;
-    font-family: 'Montserrat Black', arial;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     font-size: 2.7rem;
     padding: 1rem 1rem;
     color: white;
@@ -400,11 +392,6 @@ html, body {
       padding: 2rem;
       top: 35%;
     }
-
-    /* .embed-video {
-        max-width: 100%;
-        height: auto;
-    } */
 
     /* == get the kit == */
 
