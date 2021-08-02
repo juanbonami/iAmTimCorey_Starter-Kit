@@ -34,6 +34,7 @@ html, body {
     position: absolute;
     min-width: 100%;
     top: 50%;
+    left: 0;
     padding: 0 15% 0 15%;
     /* padding: 0 90px 0 90px; */
 }
@@ -80,7 +81,7 @@ html, body {
 }
 
 .col-button {
-    width: 21.666667%;
+    width: 22rem;
 }
 
 .gtk-button a {
@@ -138,8 +139,12 @@ html, body {
     font-size: 2.65rem;
 }
 
+.get-the-kit-info-row-two {
+    margin: 0 2rem;
+}
+
 .get-the-kit-info-row-two div {
-    width: 18.5%;
+    /* width: 18.5%; */
     background-color: #AEB5BF;
     margin: 3rem;
     height: 376px;
@@ -228,6 +233,7 @@ html, body {
     width: 100%; 
     height:auto;
     shape-outside: inset(2% 25% 0px 35px);
+    float: left;
 }
 
 /* ========= testimonials ========= */
@@ -294,6 +300,10 @@ html, body {
     word-spacing: 2px;
 }
 
+.col-button-last {
+    width: 24rem;
+}
+
 .button {
     width: 100%;
     border: none;
@@ -301,7 +311,7 @@ html, body {
     text-transform: uppercase;
     font-family: 'Montserrat Black', arial;
     font-size: 2.7rem;
-    padding: 1.1rem 2rem;
+    padding: 1rem 1rem;
     color: white;
     background-color: #E9354C;
 }
@@ -311,9 +321,13 @@ html, body {
 }
 
 .row-button {
-    margin: 4rem 4rem 0 4rem;
+    margin: 4rem 4rem 4rem 4rem;
     position: relative;
     z-index: 1;
+}
+
+.footer-col {
+    transform: translateY(-73px);
 }
 
 .footer-col img {
@@ -337,7 +351,7 @@ html, body {
 
 .design {
     position: absolute;
-    bottom: -8rem;
+    bottom: -2rem;
     z-index: -1;
 }
 
@@ -346,4 +360,156 @@ html, body {
     background-color: #AEB5BF;
     clip-path: circle(33% at bottom);
     transform: scaleX(3);
+}
+
+/* ========== smaller screen sizes ========= */
+
+@media screen and (max-width: 1540px) {
+
+    /* == meet tim corey == */
+
+    .meet-tim-corey-col-one img {
+        float: none;
+    }
+
+    .meet-tim-corey-col-one {
+        width: auto;
+    }
+
+    .meet-col-two {
+        padding: 1rem 0 1rem 0;
+    }
+
+    .meet-col-two h1 {
+        text-align: center;
+        /* font-size: 2.5rem; */
+    }
+
+    .meet-col-two p {
+        text-align: center;
+        /* font-size: 1.4rem; */
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1276px) {
+
+    /* == header == */
+
+    .video-container-one {
+      padding: 2rem;
+      top: 35%;
+    }
+
+    /* .embed-video {
+        max-width: 100%;
+        height: auto;
+    } */
+
+    /* == get the kit == */
+
+    .get-the-kit-image {
+        height: auto;
+        transform: translate(0, 0);
+    }
+
+    .get-the-kit-image img {
+    
+    }
+}
+
+@media screen and (max-width: 495px) {
+
+    /* == header == */
+
+    .background {
+        height: 350px;
+    }
+
+    .embed-video {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* == get the kit == */
+
+    .get-the-kit-section h1 {
+        font-size: 2.7rem;
+    }
+    .get-the-kit-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .col-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .gtk-button a {
+        height: 3rem;
+        width: 60%;
+        font-size: 1.5rem;
+        padding: 6px;
+    }
+
+    .get-the-kit-info-col-one h1 {
+        font-size: 2.5rem;
+        margin: 1rem 0 1rem 0;
+    }
+    .get-the-kit-info-col-two h1 {
+        font-size: 1.65rem;
+    }
+
+    .get-the-kit-info-col-five-half h1 {
+        font-size: 2.5rem;
+    }
+
+    .get-the-kit-info-col-six h1 {
+        font-size: 1.5rem;
+    }
+
+    /* == meet tim corey == */
+
+    .meet-col-two h1 {
+        font-size: 2.5rem;
+    }
+
+    .meet-col-two p {
+        font-size: 1.4rem;
+        padding: 0;
+    }
+
+    /* == testimonials == */
+    .testimonials-title h1 {
+        font-size: 2.6rem;
+    }
+
+    .testimonials {
+        width: auto;
+    }
+
+    /* == footer == */
+
+    .footer-title h1 {
+        font-size: 2.6rem;
+    }
+
+    .footer-title h2 {
+        font-size: 1.6rem;
+    }
+
+    .row-button {
+        margin: 1rem 0 3rem 0;
+    }
+
+    .col-button-last {
+        height: 3rem;
+        width: 68%;
+    }
+
+    .button {
+        font-size: 1.45rem;
+        padding: 7px;
+    }
+
 }
