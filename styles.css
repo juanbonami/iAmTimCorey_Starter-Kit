@@ -500,3 +500,32 @@ html, body {
     }
 
 }
+
+/* === bigger screens === */
+
+@media screen and (min-width: 1670px) {
+    .background {
+        height: 120rem;
+    }
+
+    .embed-video {
+        height: 66rem;
+    }
+}
+
+@media screen and (min-width: 1729px) {
+    .get-the-kit-image {
+        height: auto;
+        transform: translate(0,0);
+    }
+}
+
+@media screen and (min-width: 1852px) {
+    .meet-tim-corey-row {
+        height: 75rem;
+    }
+
+    .design-footer {
+        height: 450px;
+    }
+}
