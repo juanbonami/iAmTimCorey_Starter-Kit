@@ -1,2 +1,515 @@
 /* Font: Montserrat Black for titles, Montserrat Regular for all other text.
 Colors: Red (#E9354C) and Grey (#AEB5BF) */
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* ============ HEADER ================ */
+
+.header {
+    position: relative;
+}
+
+.background {
+    height: 1100px;
+    background-color: #E9354C;
+    clip-path: circle(81% at top);
+    transform: scaleX(1.8);
+}
+
+.image {
+    position: absolute;
+    top: -4%;
+}
+
+.image img {
+    width: 60%;
+}
+
+.video-container-one {
+    position: absolute;
+    min-width: 100%;
+    top: 50%;
+    left: 0;
+    padding: 0 15% 0 15%;
+    /* padding: 0 90px 0 90px; */
+}
+
+.embed-video {
+    min-width: 100%;
+    height: 620px;
+}
+
+/* ============ GET THE KIT SECTION ============ */
+
+.get-the-kit-section {
+    margin-top: 10%;
+}
+
+.get-the-kit-section h1 {
+    text-align: center;
+    font-family: 'Montserrat Black', arial;
+    text-transform: uppercase;
+    font-size: 3.7rem;
+
+}
+
+.get-the-kit-section h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.6rem;
+}
+
+.get-the-kit-image {
+    height: 70rem;
+    transform: translate(0, -14rem);
+}
+
+.get-the-kit-image img {
+    transform: scale(1.1);
+}
+
+.gtk-button {
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    
+}
+
+.col-button {
+    width: 22rem;
+}
+
+.gtk-button a {
+    background-color: #E9354C;
+    width: 100%;
+    height: 6rem;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat Black', arial;
+    font-size: 2.5rem;
+    padding: 1rem 1rem;
+    color: white;
+}
+
+.gtk-button a:hover {
+    background-color: darkred;
+    color: white;
+}
+
+/* .btn button:hover {
+    background-color: darkred;
+}
+
+.btn button {
+    width: 22%;
+    height: 9%;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat Black', arial;
+    font-size: 2.7rem;
+    padding: 1.1rem 2rem;
+    color: white;
+    background-color: #E9354C;
+} */
+
+/* ============== info get the kit ================ */
+
+.get-the-kit-info-row-one {
+    margin-top: 5%;
+}
+
+.get-the-kit-info-col-one h1 {
+    text-align: center;
+    font-family: 'Montserrat Black', arial;
+    text-transform: uppercase;
+    font-size: 3.7rem;
+    margin-bottom: 1rem;
+}
+
+.get-the-kit-info-col-two h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.65rem;
+}
+
+.get-the-kit-info-row-two {
+    margin: 0 2rem;
+}
+
+.get-the-kit-info-row-two div {
+    /* width: 18.5%; */
+    background-color: #AEB5BF;
+    margin: 3rem;
+    height: 376px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.get-the-kit-info-row-two div:hover {
+    background-color: #E9354C;
+}
+
+.get-the-kit-info-col-three-four-five section {
+    padding: 27px;
+}
+
+.get-the-kit-info-col-three-four-five h1 {
+    color: white;
+    font-family: 'Montserrat Black', arial;
+    font-size: 10.5rem;
+}
+
+.get-the-kit-info-col-three-four-five h5 {
+    color: white;
+    font-family: 'Montserrat Black', arial;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    word-spacing: 2px;
+    margin-top: 20px;
+}
+
+.get-the-kit-info-col-five-half h1 {
+    margin: 2rem;
+}
+
+.get-the-kit-info-col-five-half h1, .get-the-kit-info-col-six h1{
+    text-align: center;
+    font-family: 'Montserrat Black', arial;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: black;
+}
+
+.get-the-kit-info-col-six h1 {
+    text-transform: capitalize;
+    font-size: 2.6rem;
+    margin: 1.5rem;
+}
+
+/* =========== Meet Tim Corey ========== */
+
+.meet-tim-corey-row {
+    padding-top: 6.5rem;
+}
+
+.meet-tim-corey-col-one {
+    width: 65%;
+}
+
+.meet-col-two {
+    padding: 3rem 0 10rem 1rem;
+}
+
+.meet-col-two h1 {
+    font-family: 'Montserrat Black', arial;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.meet-col-two p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    color: white;
+    padding-right: 15.8rem;
+    margin-bottom: 2rem;
+}
+
+.meet {
+    background-color: #AEB5BF;
+    margin-top: 3.1rem;
+}
+
+.meet-tim-corey-col-one img {
+    width: 100%; 
+    height:auto;
+    shape-outside: inset(2% 25% 0px 35px);
+    float: left;
+}
+
+/* ========= testimonials ========= */
+
+.testimonials-container {
+    background-color: #E9354C;
+    padding-bottom: 2rem;
+}
+
+.testimonials-title h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3.7rem;
+    font-family: 'Montserrat Black', arial;
+    font-size: 3.6rem;
+}
+
+.testimonials section {
+    background-color: white;
+    padding: 1.5rem 3.5rem;
+    border-radius: 50px;
+}
+
+.testimonials section h1 {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.testimonials div h1 {
+    padding: 2rem 0;
+    text-align: right;
+    font-family: arial;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+}
+
+/* ========== footer =========== */
+
+.footer-container {
+    overflow: clip;
+}
+
+.footer-title {
+    text-align: center;
+    margin: 6rem 0 0 0;
+}
+
+.footer-title h1 {
+    font-family: 'Montserrat Black', arial;
+    font-size: 3.6rem;
+    color: black;
+    text-transform: uppercase;
+    word-spacing: 2px;
+}
+
+.footer-title h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: black;
+    word-spacing: 2px;
+}
+
+.col-button-last {
+    width: 24rem;
+}
+
+.button {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat Black', arial;
+    font-size: 2.7rem;
+    padding: 1rem 1rem;
+    color: white;
+    background-color: #E9354C;
+}
+
+.button:hover {
+    background-color: darkred;
+}
+
+.row-button {
+    margin: 4rem 4rem 4rem 4rem;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-col {
+    transform: translateY(-73px);
+}
+
+.footer-col img {
+    margin-top: 4rem;
+    width: 100%;
+    height: 100%;
+    overflow: clip;
+}
+
+.final-kit-image {
+    transform: scale(1.6);
+}
+
+.row-design {
+    height: fit-content;
+}
+
+.row-last {
+    position: relative;
+}
+
+.design {
+    position: absolute;
+    bottom: -2rem;
+    z-index: -1;
+}
+
+.design-footer {
+    height: 350px;
+    background-color: #AEB5BF;
+    clip-path: circle(33% at bottom);
+    transform: scaleX(3);
+}
+
+/* ========== smaller screen sizes ========= */
+
+@media screen and (max-width: 1540px) {
+
+    /* == meet tim corey == */
+
+    .meet-tim-corey-col-one img {
+        float: none;
+    }
+
+    .meet-tim-corey-col-one {
+        width: auto;
+    }
+
+    .meet-col-two {
+        padding: 1rem 0 1rem 0;
+    }
+
+    .meet-col-two h1 {
+        text-align: center;
+        /* font-size: 2.5rem; */
+    }
+
+    .meet-col-two p {
+        text-align: center;
+        /* font-size: 1.4rem; */
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1276px) {
+
+    /* == header == */
+
+    .video-container-one {
+      padding: 2rem;
+      top: 35%;
+    }
+
+    /* .embed-video {
+        max-width: 100%;
+        height: auto;
+    } */
+
+    /* == get the kit == */
+
+    .get-the-kit-image {
+        height: auto;
+        transform: translate(0, 0);
+    }
+
+    .get-the-kit-image img {
+    
+    }
+}
+
+@media screen and (max-width: 495px) {
+
+    /* == header == */
+
+    .background {
+        height: 350px;
+    }
+
+    .embed-video {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* == get the kit == */
+
+    .get-the-kit-section h1 {
+        font-size: 2.7rem;
+    }
+    .get-the-kit-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .col-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .gtk-button a {
+        height: 3rem;
+        width: 60%;
+        font-size: 1.5rem;
+        padding: 6px;
+    }
+
+    .get-the-kit-info-col-one h1 {
+        font-size: 2.5rem;
+        margin: 1rem 0 1rem 0;
+    }
+    .get-the-kit-info-col-two h1 {
+        font-size: 1.65rem;
+    }
+
+    .get-the-kit-info-col-five-half h1 {
+        font-size: 2.5rem;
+    }
+
+    .get-the-kit-info-col-six h1 {
+        font-size: 1.5rem;
+    }
+
+    /* == meet tim corey == */
+
+    .meet-col-two h1 {
+        font-size: 2.5rem;
+    }
+
+    .meet-col-two p {
+        font-size: 1.4rem;
+        padding: 0;
+    }
+
+    /* == testimonials == */
+    .testimonials-title h1 {
+        font-size: 2.6rem;
+    }
+
+    .testimonials {
+        width: auto;
+    }
+
+    /* == footer == */
+
+    .footer-title h1 {
+        font-size: 2.6rem;
+    }
+
+    .footer-title h2 {
+        font-size: 1.6rem;
+    }
+
+    .row-button {
+        margin: 1rem 0 3rem 0;
+    }
+
+    .col-button-last {
+        height: 3rem;
+        width: 68%;
+    }
+
+    .button {
+        font-size: 1.45rem;
+        padding: 7px;
+    }
+
+}
