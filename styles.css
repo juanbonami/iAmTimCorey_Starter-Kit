@@ -529,3 +529,9 @@ html, body {
         height: 450px;
     }
 }
+
+@media screen and (min-width: 2270px) {
+    .meet-tim-corey-row {
+        height: 95rem;
+    }
+}
