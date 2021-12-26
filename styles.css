@@ -403,7 +403,7 @@ html, body {
 
     .video-container-one {
       padding: 2rem;
-      top: 35%;
+      top: 47%;
     }
 
     /* == get the kit == */
@@ -418,12 +418,20 @@ html, body {
     }
 }
 
+@media screen and (max-width: 616px) {
+    .background {
+        height: 560px;
+        margin-bottom: 100px;
+    }
+}
+
 @media screen and (max-width: 495px) {
 
     /* == header == */
 
     .background {
         height: 350px;
+        margin-bottom: 0;
     }
 
     .embed-video {
